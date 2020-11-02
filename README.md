@@ -1,4 +1,4 @@
-[![GitHub Actions status | LPeteR90/kotlinPlayground](https://github.com/LPeteR90/kotlinPlayground/workflows/CI/badge.svg)](https://github.com/LPeteR90/kotlin-playground-template/actions?workflow=CI)
+[![GitHub Actions status | LPeteR90/kotlinPlayground](https://github.com/LPeteR90/kotlinPlayground/workflows/CI/badge.svg)](https://github.com/LPeteR90/kotlinPlayground/actions?workflow=CI)
 
-# Template for Playground Kotlin Projects
+# Playground for trying out new things using the kotlin language
 
