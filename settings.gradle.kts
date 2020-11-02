@@ -1,2 +1,2 @@
-rootProject.name = "kotlin-playground-template"
+rootProject.name = "kotlinPlayground"
 
