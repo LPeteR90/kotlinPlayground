@@ -27,6 +27,17 @@ class ListAllVsVarargTest : FunSpec({
         }
         println(System.nanoTime() - timeStart)
     }
+
+    // 10000 diff: 9448799, 10534197
+    // 10_000_000 diff: 611659207, 370336684
+    // 100_000_000 diff: 4124656500, 3978096194, 3266333518
+    test("arrayof.all") {
+        val timeStart = System.nanoTime()
+        (1..10_000).forEach {
+            arrayOf(it, it + 1, it + 2, it + 3, it + 4, it + 5, it + 6, it + 7, it + 8, it + 9).all { it < 10000 }
+        }
+        println(System.nanoTime() - timeStart)
+    }
 })
 
 fun <T> all(vararg args: T, predicate: (T) -> Boolean): Boolean {
